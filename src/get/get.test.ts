@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest'
-import { get } from './get'
+import { describe, expect, it } from 'vitest';
+import { get } from './get';
 
 const obj = {
   colors: {
@@ -15,21 +15,17 @@ const obj = {
       },
     },
   },
-}
+};
 
 describe('get', () => {
   it('returns correct values using string path', () => {
-    expect(get(obj, 'colors.gray.400')).toBe(obj.colors.gray[400])
-    expect(get(obj, 'fontFamily')).toBe(obj.fontFamily)
-    expect(get(obj, 'this.is.really.nested')).toBe(obj.this.is.really.nested)
-  })
+    expect(get(obj, 'colors.gray.400')).toBe(obj.colors.gray[400]);
+    expect(get(obj, 'fontFamily')).toBe(obj.fontFamily);
+    expect(get(obj, 'this.is.really.nested')).toBe(obj.this.is.really.nested);
+  });
   it('returns correct values using array path', () => {
-    expect(get(obj, ['colors', 'gray', '400'])).toBe(obj.colors.gray[400])
-    expect(get(obj, ['fontFamily'])).toBe(obj.fontFamily)
-    expect(get(obj, ['this', 'is', 'really', 'nested'])).toBe(obj.this.is.really.nested)
-  })
-  it('returns defaultValue if set', () => {
-    expect(get(obj, 'fontFamily')).toBe(obj.fontFamily)
-    expect(get(obj, ['colors', 'gray', '900000'])).toBe(obj.colors.gray[400])
-  })
-})
+    expect(get(obj, ['colors', 'gray', '400'])).toBe(obj.colors.gray[400]);
+    expect(get(obj, ['fontFamily'])).toBe(obj.fontFamily);
+    expect(get(obj, ['this', 'is', 'really', 'nested'])).toBe(obj.this.is.really.nested);
+  });
+});
