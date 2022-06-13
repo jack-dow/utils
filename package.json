@@ -1,6 +1,6 @@
 {
   "name": "@jdow/utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jack Dow",
   "license": "MIT",
   "sideEffects": false,
@@ -16,7 +16,7 @@
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
+    "release": "pnpm build && bumpp package.json --commit --push --tag && pnpm -r publish --access public",
     "clean": "rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
