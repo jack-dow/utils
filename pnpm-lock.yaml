@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@jdow/eslint-config': ^0.0.16
+  '@jdow/eslint-config': ^0.0.18
   '@types/node': ^17.0.42
   bumpp: ^7.1.1
   eslint: ^8.17.0
@@ -10,7 +10,7 @@ specifiers:
   vitest: ^0.14.2
 
 devDependencies:
-  '@jdow/eslint-config': 0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4
+  '@jdow/eslint-config': 0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4
   '@types/node': 17.0.42
   bumpp: 7.1.1
   eslint: 8.17.0
@@ -73,8 +73,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@jdow/eslint-config-basic/0.0.16_aq7uryhocdbvbqum33pitcm3y4:
-    resolution: {integrity: sha512-QYnUL1Z+jtLtEL9zOJyJMeswaZWy1WoST2onS+uBSw5PMmtDoQ8kQf7MLMPE7DtsuVMqYZreSgkspNhSb2me0w==}
+  /@jdow/eslint-config-basic/0.0.18_aq7uryhocdbvbqum33pitcm3y4:
+    resolution: {integrity: sha512-ZtkH98s2/KHONsZ30uurQlEij2G/GbJRXiJg12Yz6puXDSFBF4u37JvC/pUkGP/FaEHbe+HJxuUDcxWBKCFHqA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -82,7 +82,7 @@ packages:
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.17.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.26.0_pv5w3e62ssxduf5aiwxbc3knra
-      eslint-plugin-jdow: 0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4
+      eslint-plugin-jdow: 0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4
       eslint-plugin-jsonc: 2.3.0_eslint@8.17.0
       eslint-plugin-markdown: 2.2.1_eslint@8.17.0
       eslint-plugin-n: 15.2.2_eslint@8.17.0
@@ -99,12 +99,12 @@ packages:
       - typescript
     dev: true
 
-  /@jdow/eslint-config-react/0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4:
-    resolution: {integrity: sha512-+RiB+2n4iFteLfH9HR5pmVb7UbY9D2ttyKofngGfjYa5g2z7Pt/IdhRfWlH9u0Us93Rl8SrwT1WoSqP2DWn4Qg==}
+  /@jdow/eslint-config-react/0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4:
+    resolution: {integrity: sha512-jPaj9eru/Gd2oT2fET8hII/qeBYjr38u6EeBWZCLqT4rynMiK46YLxhn2RIU4kFlh09EbjbBLGhTnKA0oCri3A==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@jdow/eslint-config-ts': 0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4
+      '@jdow/eslint-config-ts': 0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4
       eslint: 8.17.0
       eslint-plugin-react: 7.30.0_eslint@8.17.0
     transitivePeerDependencies:
@@ -114,13 +114,13 @@ packages:
       - typescript
     dev: true
 
-  /@jdow/eslint-config-ts/0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4:
-    resolution: {integrity: sha512-IQ3jYGim9qN5kx1LWcM4QXg6vYrA5fwxhSQ+GGcHLrxEk7Mia21515gSAuUrE/mCs+7laCokapiQaR9sD3EVbw==}
+  /@jdow/eslint-config-ts/0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4:
+    resolution: {integrity: sha512-gBDZdon99oFebrAIyS0aY8TbCiWCGD36msyfddy5avHJDxdyB7hXt6jcZOmvNKVKVqnsCZZ4BAewwhMKI8WIWQ==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@jdow/eslint-config-basic': 0.0.16_aq7uryhocdbvbqum33pitcm3y4
+      '@jdow/eslint-config-basic': 0.0.18_aq7uryhocdbvbqum33pitcm3y4
       '@typescript-eslint/eslint-plugin': 5.27.1_aq7uryhocdbvbqum33pitcm3y4
       '@typescript-eslint/parser': 5.27.1_ud6rd4xtew5bv4yhvkvu24pzm4
       eslint: 8.17.0
@@ -131,12 +131,12 @@ packages:
       - supports-color
     dev: true
 
-  /@jdow/eslint-config/0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4:
-    resolution: {integrity: sha512-iTCsI2AdHpKQWp6n92enGT5pjUD4MuJwIJDdBysqmB67ytcoYZJV/ArgLge4Yas+7YPV5f4zYyjWMQqgV8zAqQ==}
+  /@jdow/eslint-config/0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4:
+    resolution: {integrity: sha512-IaJ1mRAKT/FQz4pLjJAUYp43yQ7SD1BT4RljeQXcVV8WzsK8r4o/eCECf6xq9DtxW02DwxN7LHTyb1/Op0Q2Dw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@jdow/eslint-config-react': 0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4
+      '@jdow/eslint-config-react': 0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4
       '@typescript-eslint/eslint-plugin': 5.27.1_aq7uryhocdbvbqum33pitcm3y4
       '@typescript-eslint/parser': 5.27.1_ud6rd4xtew5bv4yhvkvu24pzm4
       eslint: 8.17.0
@@ -1135,8 +1135,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jdow/0.0.16_ud6rd4xtew5bv4yhvkvu24pzm4:
-    resolution: {integrity: sha512-0yltQFI6W4LIFMIDKEIo6dzdcPeP95M5Ex9x1om/lUZYmztZWdJpv6vXdCqFNl0ho/bON8/wY4PN5EA/rr3hSw==}
+  /eslint-plugin-jdow/0.0.18_ud6rd4xtew5bv4yhvkvu24pzm4:
+    resolution: {integrity: sha512-gwiC2/rufvqgSyOlQTB5TbDr0FRINwZsGGRAjODiu5I517ypiN8uzBUUkPPEGAuDqYgqBq75IXgPfrqPaianjQ==}
     dependencies:
       '@typescript-eslint/utils': 5.27.1_ud6rd4xtew5bv4yhvkvu24pzm4
     transitivePeerDependencies:
