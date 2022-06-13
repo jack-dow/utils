@@ -1,9 +1,9 @@
 {
   "name": "@jdow/utils",
   "version": "0.0.2",
-  "sideEffects": false,
-  "license": "MIT",
   "author": "Jack Dow",
+  "license": "MIT",
+  "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,10 +16,11 @@
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
+    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
+    "clean": "rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@jdow/eslint-config": "^0.0.15",
+    "@jdow/eslint-config": "^0.0.16",
     "@types/node": "^17.0.42",
     "bumpp": "^7.1.1",
     "eslint": "^8.17.0",
