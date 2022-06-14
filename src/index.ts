@@ -2,6 +2,7 @@ export { equals } from './equals/equals';
 export { get } from './get/get';
 export { isPlainObject } from './isPlainObject/isPlainObject';
 export { memoize } from './memoize/memoize';
+export { merge } from './merge/merge';
 export { set } from './set/set';
 export { toCamelCase } from './toCamelCase/toCamelCase';
 export { toHash } from './toHash/toHash';
