@@ -28,4 +28,7 @@ describe('get', () => {
     expect(get(obj, ['fontFamily'])).toBe(obj.fontFamily);
     expect(get(obj, ['this', 'is', 'really', 'nested'])).toBe(obj.this.is.really.nested);
   });
+  it('returns undefined if value does not exist', () => {
+    expect(get(obj, 'test.hello')).toBe(undefined);
+  });
 });
